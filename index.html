@@ -264,6 +264,31 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+  $("#btnFrWord").click(function() {
+            $("#textWord").replaceWith("<p id='textMlst' class='mb-0 mt-1 text-white-50'>Ce projet comprends une réalisation entière du design et du front-end pour un site fictif de la mission locale de Saint-Gilles.<br><br> REALISATION : 24h | CONTENU & DESIGN : 16h <br><br> HTML5 | CSS3 | JQUERY | BOOTSTRAP | FIGMA | RESPONSIVE </p>");
+            $("#titleWord").replaceWith("<h6 id='titleMlst' class='text-white'>Mission locale de Saint-Gilles | JUIN 2024</h6>");
+            $("#titleWord").replaceWith("<h2 id='titleProj' class='text-dark text-center mt-5'>Projets</h2>");
+});
+});
+
+$(document).ready(function(){
+  $("#btnEnWord").click(function() {
+            $("#textWord").replaceWith("<p id='textMlst' class='mb-0 mt-1 text-white-50'> This project includes an entire design and front-end for a fictional site of the local mission of Saint-Gilles. <br><br> IMPLEMENTATION: 24h | CONTENT & DESIGN: 16h <br><br> HTML5 | CSS3 | JQUERY | BOOTSTRAP | FIGMA | RESPONSIVE </p>");
+            $("#titleWord").replaceWith("<h6 id='titleMlst' class='text-white'>Local Mission of Saint-Gilles | JUNE 2024</h6>");
+            $("#titleWord").replaceWith("<h2 id='titleProj' class='text-dark text-center mt-5'>Projects</h2>");
+});
+});
+
+$(document).ready(function(){
+  $("#btnNlWord").click(function() {
+            $("#textWord").replaceWith("<p id='textMlst' class='mb-0 mt-1 text-white-50'> Dit project omvat een volledig ontwerp en front-end voor een fictieve site van de lokale missie van Sint-Gillis. <br><br>  REALISATIE: 24 uur | INHOUD & ONTWERP: 16 uur <br><br> HTML5 | CSS3 | JQUERY | BOOTSTRAP | FIGMA | RESPONSIVE </p>");
+            $("#titleWord").replaceWith("<h6 id='titleMlst' class='text-white'>Lokale missie van Sint-Gillis | JUNI 2024</h6>");
+            $("#titleWord").replaceWith("<h2 id='titleProj' class='text-dark text-center mt-5'>Projecten</h2>");
+
+});
+});
+
+$(document).ready(function(){
   $("#btnFrJv").click(function() {
             $("#textJv").replaceWith("<p id='textJv' class='mb-0 mt-1 text-white-50'> Projet personnel de création d’un site web dédié aux actualités de l'industrie du jeu vidéo, à la fois VR et FLAT console. <br><br> REALISATION : .. | CONTENU & DESIGN : ..<br><br> PHP | MYSQL | JS | BOOTSTRAP | HTML5 | CSS3 | FIGMA | RESPONSIVE</p>");
             $("#titleJv").replaceWith("<h6 id='titleJv' class='text-white'>site d'actu. JV | W.I.P.</h6>");
@@ -370,6 +395,13 @@ $(document).ready(function(){
       $("#atnImg").hide();
             $(window).scroll(function() {
             $("#atnImg").fadeIn(5000);
+          });
+        });
+
+        $(document).ready(function(){
+      $("#wordText").hide();
+            $(window).scroll(function() {
+            $("#wordImg").fadeIn(5000);
           });
         });
 
@@ -684,15 +716,15 @@ Guillaume Baillieux
               <!-- Featured Project Row-->
               <div class="row gx-0 mb-5 mt-3 mb-lg-0 justify-content-center">
                 <div class="col-lg-6">
-                  <div id="valTwo" class="bg-black text-center h-100 project">
+                  <div id="wordText" class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                       <div
                       class="project-text w-100  text-center text-lg-left"
                       >
-                      <h6 id="titleMlst" class="text-white">Portfolio WordPress | JUILLET 2024</h6>
-                      <button id="btnFrMlst" class="text-white" style="border: none; background-color: black;">FR</button><span class="text-white">|</span><button id="btnEnMlst" class="text-white" style="border: none; background-color: black;">EN</button><span class="text-white">|</span><button id="btnNlMlst" class="text-white" style="border: none; background-color: black;">NL</button>
+                      <h6 id="titleWord" class="text-white">Portfolio WordPress | JUILLET 2024</h6>
+                      <button id="btnFrWord" class="text-white" style="border: none; background-color: black;">FR</button><span class="text-white">|</span><button id="btnEnWord" class="text-white" style="border: none; background-color: black;">EN</button><span class="text-white">|</span><button id="btnNlWord" class="text-white" style="border: none; background-color: black;">NL</button>
                       <br><br>
-                      <p id="textMlst" class="mb-0 mt-1 text-white-50">
+                      <p id="textWord" class="mb-0 mt-1 text-white-50">
                       Ce projet comprends la réalisation de mon portfolio avec WordPress. 
                         <br>
                         <br>
@@ -706,7 +738,7 @@ Guillaume Baillieux
                 </div>
               </div>
               <div class="col-lg-6">
-                <a id="valTwoImg" href="https://bailgui.alwaysdata.net/" target="_blank" rel="noopener noreferrer">
+                <a id="WordImg" href="https://bailgui.alwaysdata.net/" target="_blank" rel="noopener noreferrer">
                   <img
                   class="img-fluid"
                   src="assets/img/WordPress.svg"
