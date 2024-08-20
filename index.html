@@ -314,6 +314,31 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+  $("#btnFrSnake").click(function() {
+            $("#textSnake").replaceWith("<p id='textSnake' class='mb-0 mt-1 text-white-50'> Mini jeu Snake réalisé en milieu de formation <br><br> REALISATION : 2h | CONTENU & DESIGN : 1h <br><br> HTML5 | CSS3 | JS | RESPONSIVE </p>");
+            $("#titleSnake").replaceWith("<h6 id='titleSnake' class='text-white'>SNAKE</h6>");
+            $("#titleMini").replaceWith("<h2 id='titleMini' class='text-dark text-center mt-5'>Mini-jeux</h2>");
+});
+});
+
+$(document).ready(function(){
+  $("#btnEnSnake").click(function() {
+            $("#textSnake").replaceWith("<p id='textSnake' class='mb-0 mt-1 text-white-50'> Snake mini game created in the middle of training <br><br> IMPLEMENTATION: 2h | CONTENT & DESIGN: 1h <br><br> HTML5 | CSS3 | JS | RESPONSIVE </p>");
+            $("#titleSnake").replaceWith("<h6 id='titleSnake' class='text-white'>SNAKE</h6>");
+            $("#titleMini").replaceWith("<h2 id='titleMini' class='text-dark text-center mt-5'>Mini-games</h2>");
+});
+});
+
+$(document).ready(function(){
+  $("#btnNlSnake").click(function() {
+            $("#textSnake").replaceWith("<p id='textSnake' class='mb-0 mt-1 text-white-50'> Snake-minigame gemaakt tijdens de training<br><br>  REALISATIE: 2 uur | INHOUD & ONTWERP: 1 uur <br><br> HTML5 | CSS3 | JS | RESPONSIVE </p>");
+            $("#titleSnake").replaceWith("<h6 id='titleSnake' class='text-white'>SNAKE</h6>");
+            $("#titleMini").replaceWith("<h2 id='titleMini' class='text-dark text-center mt-5'>Minispellen</h2>");
+
+});
+});
+
+$(document).ready(function(){
   $("#btnFrJv").click(function() {
             $("#textJv").replaceWith("<p id='textJv' class='mb-0 mt-1 text-white-50'> Projet personnel de création d’un site web dédié aux actualités de l'industrie du jeu vidéo, à la fois VR et FLAT console. <br><br> REALISATION : .. | CONTENU & DESIGN : ..<br><br> PHP | MYSQL | JS | BOOTSTRAP | HTML5 | CSS3 | FIGMA | RESPONSIVE</p>");
             $("#titleJv").replaceWith("<h6 id='titleJv' class='text-white'>site d'actu. JV | Travail en cours</h6>");
@@ -860,15 +885,15 @@ Guillaume Baillieux
       <!-- Featured Project Row-->
       <div class="row gx-0 mb-5 mt-3 mb-lg-0 justify-content-center">
         <div class="col-lg-6">
-          <div id="valOne" class="bg-black text-center h-100 project">
+          <div id="Snake" class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div
               class="project-text w-100  text-center text-lg-left"
               >
-              <h6 id="titleFirst" class="text-white">SNAKE</h6>
-              <button id="btnFirstFr" class="text-white" style="border: none; background-color: black;">FR</button><span class="text-white">|</span><button id="btnFirstEn" class="text-white" style="border: none; background-color: black;">EN</button><span class="text-white">|</span><button id="btnFirstNl" class="text-white" style="border: none; background-color: black;">NL</button>
+              <h6 id="titleSnake" class="text-white">SNAKE</h6>
+              <button id="btnFrSnake" class="text-white" style="border: none; background-color: black;">FR</button><span class="text-white">|</span><button id="btnEnSnake" class="text-white" style="border: none; background-color: black;">EN</button><span class="text-white">|</span><button id="btnNlSnake" class="text-white" style="border: none; background-color: black;">NL</button>
               <br><br>
-              <p id="textFirst" class="mb-0 mt-1 text-white-50">
+              <p id="textSnake" class="mb-0 mt-1 text-white-50">
                 Mini jeu Snake réalisé en milieu de formation
                 <br>
                 <br>
@@ -882,11 +907,11 @@ Guillaume Baillieux
         </div>
       </div>
       <div class="col-lg-6">
-        <a id="valOneImg" href="https://2023.webdev-cf2m.be/Guillaume/Snake/Guillaume/snake.html" target="_blank" rel="noopener noreferrer">
+        <a id="SnakeImg" href="https://2023.webdev-cf2m.be/Guillaume/Snake/Guillaume/snake.html" target="_blank" rel="noopener noreferrer">
           <img
           class="img-fluid"
           src="assets/img/Snake.svg"
-          alt="TI-1"
+          alt="Snake"
           /></a>
         </div>
       </div>
