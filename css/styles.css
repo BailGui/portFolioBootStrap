@@ -8446,6 +8446,12 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 576px) {
+  
+  #ProfilPicture {
+    width: 25%;
+    height: 25%;
+  }
+
   .float-sm-start {
     float: left !important;
   }
@@ -10430,6 +10436,12 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 1400px) {
+
+  #ProfilPicture {
+    width: 10%;
+    height: 10%;
+  }
+
   .float-xxl-start {
     float: left !important;
   }
@@ -10938,6 +10950,11 @@ textarea.form-control-lg {
   .fs-4 {
     font-size: 1.5rem !important;
   }
+
+  #ProfilPicture {
+    width: 10%;
+    height: 10%;
+  }
 }
 @media print {
   .d-print-inline {
@@ -11094,6 +11111,11 @@ body {
     font-size: 4rem;
     line-height: 4rem;
   }
+
+  #ProfilPicture {
+    width: 10%;
+    height: 10%;
+  }
 }
 @media (min-width: 992px) {
   .masthead {
@@ -11130,6 +11152,11 @@ body {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
+
+  #ProfilPicture {
+    width: 10%;
+    height: 10%;
+  }
 }
 .projects-section .project-text {
   padding: 3rem;
@@ -11138,6 +11165,11 @@ body {
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
+  }
+
+  #ProfilPicture {
+    width: 10%;
+    height: 10%;
   }
 }
 
@@ -11200,4 +11232,9 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+#ProfilPicture {
+  width: 18%;
+  height: 18%;
 }
